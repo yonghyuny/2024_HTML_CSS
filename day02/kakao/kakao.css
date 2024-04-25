@@ -1,0 +1,47 @@
+.kakao{
+    background-color: #f7e111;
+    color: black;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.normal{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.apple{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 800;
+    /*border: 두께 스타일 색깔; */
+    border: 1px solid #dbdbdb;    
+}
+.register{
+    color: #0078ff;
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+.button{
+    border: 1px solid #0078ff;
+    border-radius: 4px;
+    padding: 3px 8px ;
+}
+

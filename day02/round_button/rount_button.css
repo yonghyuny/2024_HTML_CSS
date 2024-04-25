@@ -1,0 +1,26 @@
+.naver{
+    background-color: rgb(17, 230, 17);
+    color: white;
+    /* radius >>50%는 원 */
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px;
+}
+.mail{
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px;
+}
+
+.apple{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px;
+}
+.buttons{
+    padding-top: 5px;
+}
