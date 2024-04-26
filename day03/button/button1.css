@@ -1,0 +1,29 @@
+body {
+  display: flex;
+}
+
+.button {
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  /* 위치 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.icon {
+  font-size: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 700;
+}

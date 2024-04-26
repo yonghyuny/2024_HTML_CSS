@@ -1,0 +1,33 @@
+.find_layout {
+  background-color: #4a76ba;
+  display: flex;
+  gap: 20px;
+  /* 안에 있는 내용만 보이는 넓이로 만들어줌*/
+  width: fit-content;
+  padding: 30px;
+}
+
+.find_button {
+  border: 1px solid #dbdbdb;
+  border-radius: 14px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 700;
+}
+
+.red {
+  color: #fe696a;
+}
+
+.blue {
+  color: #4476fe;
+}

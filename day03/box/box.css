@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+.beekeeper {
+  background-color: #f6e58d;
+}
+.turbo {
+  background-color: #f9ca24;
+}
+.middleBlue {
+  background-color: #7ed6df;
+}
+.greenlandGreen {
+  background-color: #22a6b3;
+}
