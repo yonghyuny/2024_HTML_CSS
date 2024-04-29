@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 400px;
-  height: 400px;
+  height: 300px;
   border: 1px solid #dbdbdb;
   background-color: blue;
   gap: 20px;
@@ -28,6 +28,7 @@
   justify-content: center;
   align-items: center;
   gap: 5px;
+  font-size: 20px;
 }
 
 .bottom {
@@ -47,4 +48,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+.bisque {
+  color: bisque;
+}
+
+.pink {
+  color: pink;
+}
+
+.orange {
+  color: orange;
 }
