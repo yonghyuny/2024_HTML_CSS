@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-container {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Pretendard-Regular";
+}
+
+.title {
+  font-size: 15px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.main {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 5px;
+}
+.foot {
+  font-size: 10px;
+  margin: 10px;
+}
+
+.t1 {
+  background-image: url(t1.jpg);
+  background-size: cover;
+}
+.t2 {
+  background-image: url(t2.jpg);
+  background-size: cover;
+}
+.t3 {
+  background-image: url(t3.jpg);
+  background-size: cover;
+}
+.t4 {
+  background-image: url(t4.jpg);
+  background-size: cover;
+}
