@@ -1,0 +1,33 @@
+header {
+  width: 100vw;
+  background-color: var(--neutrals-white);
+  position: fixed;
+  z-index: 999;
+}
+
+nav {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.site {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 20px;
+}
+
+.site > span:hover {
+  color: var(--primary-purple-200);
+  cursor: pointer;
+}
