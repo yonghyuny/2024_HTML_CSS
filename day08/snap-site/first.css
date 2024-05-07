@@ -1,0 +1,49 @@
+.first {
+  position: relative;
+  font-family: "Cafe24ClassicType-Regular";
+}
+
+.first > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contents {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  position: absolute;
+  top: 600px;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.contents__text {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.contents__title {
+  font-size: 60px;
+}
+
+.contents__btn > span {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.contents__btn > span:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
