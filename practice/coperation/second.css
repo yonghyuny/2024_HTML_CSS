@@ -1,0 +1,55 @@
+.second {
+  width: 100vw;
+  height: 50vh;
+}
+
+.second__container {
+  width: 100%;
+  height: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.second__title {
+  color: #555;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.secod__cards {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.second__card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.second__card > span {
+  color: #555;
+  font-weight: 800;
+}
+
+.second__card > p {
+  color: #777;
+  font-size: 13px;
+}
+
+.imgBox > img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+}
