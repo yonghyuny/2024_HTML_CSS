@@ -1,0 +1,48 @@
+header {
+  width: 100vw;
+  background-color: white;
+}
+
+nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.site {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.site > span {
+  padding: 20px 30px 20px 30px;
+}
+
+.site > span:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+}

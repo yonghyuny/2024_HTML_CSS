@@ -1,0 +1,60 @@
+.first {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.first > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.title {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+}
+
+.title > h1 {
+  font-size: 120px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.title > p {
+  color: gray;
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 400px;
+  height: 30px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: var(--max-width-mo);
+  }
+  .title > h1 {
+    font-size: 50px;
+  }
+  .btn {
+    width: 100px;
+  }
+}
