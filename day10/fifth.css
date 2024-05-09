@@ -1,0 +1,57 @@
+.fifth {
+  width: 100vw;
+  height: 80vh;
+}
+
+.fifth__title {
+  width: 100%;
+
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title__site {
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.title__name {
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.fifth__grid {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  gap: 20px;
+}
+
+.fifth__card {
+  width: 100%;
+  position: relative;
+}
+
+.fifth__imgBox {
+  width: 100%;
+}
+
+.fifth__imgBox > img {
+  width: 100%;
+}
+
+.fifth__text {
+  display: none;
+  position: absolute;
+}
+
+.fifth__card:hover {
+  opacity: 0.5;
+  display: block;
+}
