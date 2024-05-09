@@ -1,6 +1,10 @@
 .fifth {
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .fifth__title {
@@ -46,12 +50,40 @@
   width: 100%;
 }
 
-.fifth__text {
-  display: none;
-  position: absolute;
+.fifth__imgBox > img:hover {
+  opacity: 0.5;
 }
 
-.fifth__card:hover {
-  opacity: 0.5;
-  display: block;
+.fifth__text {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+.fifth__text:hover {
+  opacity: 0.8;
+}
+
+.fifth__button {
+  background-color: rgb(2, 53, 134);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  color: white;
+  padding: 20px;
+}
+
+.fifth__button:hover {
+  cursor: pointer;
 }
