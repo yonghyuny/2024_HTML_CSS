@@ -47,3 +47,22 @@ figure {
   cursor: pointer;
   background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+  figure {
+    max-width: 375px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .imgBox {
+    overflow: hidden;
+  }
+  .imgBox__back > img {
+    width: 375px;
+  }
+
+  .dots {
+    display: none;
+  }
+}

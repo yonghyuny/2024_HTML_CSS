@@ -56,3 +56,26 @@
   padding-right: 40px;
   border-right: 1px solid #1e73be;
 }
+
+@media screen and (max-width: 768px) {
+  .sixth {
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .sixth__main {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .sixth__info {
+    border-bottom: 1px solid black;
+  }
+
+  .sixth__icon {
+    display: none;
+  }
+}

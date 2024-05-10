@@ -12,6 +12,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+  color: white;
 }
 
 .header__info-left {
@@ -19,7 +20,9 @@ nav {
   gap: 20px;
   font-size: 13px;
   font-weight: 700;
-  color: white;
+}
+.bars {
+  display: none;
 }
 
 .header__info-left > li:hover {
@@ -28,7 +31,6 @@ nav {
 }
 
 .header__logo {
-  color: white;
   font-size: 30px;
   font-weight: 800;
 }
@@ -51,10 +53,30 @@ nav {
   gap: 20px;
   font-size: 13px;
   font-weight: 700;
-  color: white;
 }
 
 .header__info-right > li:hover {
   cursor: pointer;
   border-bottom: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .header__info-left {
+    display: none;
+  }
+  .bars {
+    display: block;
+  }
+  .header__info-right {
+    display: none;
+  }
+
+  .header__logo {
+    font-size: 20px;
+  }
 }

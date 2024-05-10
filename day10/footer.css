@@ -98,3 +98,42 @@ footer {
   color: #999;
   border-top: 1px solid #999;
 }
+
+@media screen and (max-width: 768px) {
+  footer {
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .footer__main {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 10px;
+  }
+  .footer__info {
+    padding: 10px;
+  }
+
+  .footer__info-item {
+    font-size: 10px;
+  }
+
+  .footer__contact-item {
+    width: 50%;
+    font-size: 10px;
+  }
+
+  .infotext {
+    font-size: 10px;
+  }
+
+  .footer__paris {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    padding-bottom: 20px;
+    font-size: 10px;
+  }
+}

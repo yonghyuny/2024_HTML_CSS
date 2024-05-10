@@ -83,3 +83,40 @@
 .third__des-des:hover {
   border-bottom: 1px solid black;
 }
+
+@media screen and (max-width: 768px) {
+  .third {
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .third__title {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .third__container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .third__container-part {
+    width: 100%;
+  }
+
+  .third__container-img > img {
+    width: 100%;
+  }
+  .third__container-des {
+    width: 50%;
+  }
+  .third__des-title {
+    width: 100%;
+  }
+
+  .third__des-des {
+    display: none;
+  }
+}

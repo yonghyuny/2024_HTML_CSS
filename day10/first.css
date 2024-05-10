@@ -83,3 +83,22 @@
   border-bottom: 1px solid #777;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .first {
+    max-width: 375px;
+    margin: 0 auto;
+    height: auto;
+  }
+  .first__cards {
+    overflow: hidden;
+  }
+
+  .first__card {
+    width: 100%;
+  }
+
+  .imgBox > img {
+    width: 375px;
+  }
+}

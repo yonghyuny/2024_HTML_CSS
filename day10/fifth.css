@@ -87,3 +87,26 @@
 .fifth__button:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .fifth {
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .fifth__grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .none {
+    display: none;
+  }
+
+  .fifth__button {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
